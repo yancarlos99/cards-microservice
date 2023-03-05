@@ -1,0 +1,29 @@
+2023-02-25 01:45:08.897  INFO 7540 --- [main] b.c.mscartoes.MscartoesApplicationTests  : Starting MscartoesApplicationTests using Java 17.0.3 on DESKTOP-BV832FR with PID 7540 (started by Yan in C:\Dev\projects\cards-microservice\mscartoes)
+2023-02-25 01:45:08.916  INFO 7540 --- [main] b.c.mscartoes.MscartoesApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-02-25 01:45:11.466  INFO 7540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-25 01:45:11.860  INFO 7540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 320 ms. Found 2 JPA repository interfaces.
+2023-02-25 01:45:12.563  INFO 7540 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9efc33f-dea5-349f-8221-642d05abff8a
+2023-02-25 01:45:14.063  INFO 7540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-25 01:45:14.529  INFO 7540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-25 01:45:14.669  INFO 7540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-25 01:45:14.824  INFO 7540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2023-02-25 01:45:15.269  INFO 7540 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-25 01:45:15.583  INFO 7540 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-25 01:45:16.982  INFO 7540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-25 01:45:16.997  INFO 7540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-25 01:45:18.711  WARN 7540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-25 01:45:25.785  INFO 7540 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-02-25 01:45:26.093  WARN 7540 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-25 01:45:26.129  INFO 7540 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-02-25 01:45:26.328  INFO 7540 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-02-25 01:45:26.359  INFO 7540 --- [main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2023-02-25 01:45:26.382  INFO 7540 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2023-02-25 01:45:26.439  INFO 7540 --- [main] b.c.mscartoes.MscartoesApplicationTests  : Started MscartoesApplicationTests in 18.584 seconds (JVM running for 21.395)
+2023-02-25 01:45:27.119  INFO 7540 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-02-25 01:45:27.125  INFO 7540 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCARTOES with eureka with status DOWN
+2023-02-25 01:45:27.135  INFO 7540 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2023-02-25 01:45:27.136  INFO 7540 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2023-02-25 01:45:27.161  INFO 7540 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-25 01:45:27.163  INFO 7540 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-25 01:45:27.177  INFO 7540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-25 01:45:27.183  INFO 7540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
